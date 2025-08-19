@@ -1,0 +1,6 @@
+@KayraExportTask1Api_HostAddress = http://localhost:5272
+
+GET {{KayraExportTask1Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
