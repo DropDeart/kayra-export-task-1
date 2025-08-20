@@ -58,5 +58,23 @@ dotnet ef database update
 ```
 Veritabanı bağlantı ayarlarını appsettings.json içinde kontrol edin.
 
-Projeyi başlatın.
+API Projesini başlatın.
+
+## Frontend Projesini Çalıştırma
+## Kurulum
+
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/DropDeart/kayra-export-task-1
+cd kayra-export-task-1
+```
+2. Frontend  için bağımlılıkları yükleyin.
+
+Frontend:
+
+```bash
+cd frontend
+npm install
+```
+Lütfen Swagger'da ayağa kalkan url bilgisini frontend projenizde yer alan .env dosyasında bulunan `NEXT_PUBLIC_BASE_UR` url bilgisi ile değiştirmeyi unutmayın.
 
